@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "lib": ["dom", "es2017", "esnext"],
+      "moduleResolution": "node",
+      "baseUrl": ".",
+      "rootDir": "src",
+      "outDir": "dist",
+      "sourceMap": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "allowSyntheticDefaultImports": true,
+      "skipLibCheck": true,
+      "allowJs": true,
+      "paths": {
+        "lib/*": ["src/lib/*"],
+        "test/*": ["src/test/*"],
+        "app/*": ["src/app/*"],
+        "cli/*": ["src/cli/*"],
+        "realize/*": ["src/realize/*"],
+        "stressTest/*": ["src/stressTest/*"],
+        "utils/*": ["src/utils/*"],
+        "locales": ["src/locales/index"]
+      },
+      "resolveJsonModule": true
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"]
+  }
+  

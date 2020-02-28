@@ -1,0 +1,20 @@
+{
+  "name": "selenium-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-mocha test/**.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.5"
+  },
+  "devDependencies": {
+    "axios": "^0.19.2",
+    "mocha": "^7.1.0",
+    "ts-mocha": "^6.0.0",
+    "typescript": "^3.8.2"
+  }
+}
